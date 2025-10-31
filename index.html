@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My GitHub Pages Site</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .container {
+      background: white;
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      text-align: center;
+      animation: fadeIn 0.6s ease-in;
+    }
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    h1 {
+      color: #333;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    p {
+      color: #666;
+      font-size: 1.1em;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+    
+    .email {
+      background: #f8f9fa;
+      padding: 10px 20px;
+      border-radius: 8px;
+      display: inline-block;
+      margin: 20px 0;
+      color: #667eea;
+      font-weight: 600;
+    }
+    
+    .links {
+      margin-top: 30px;
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    a {
+      text-decoration: none;
+      padding: 12px 30px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+    
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+    }
+    
+    .btn-secondary {
+      background: #f8f9fa;
+      color: #667eea;
+      border: 2px solid #667eea;
+    }
+    
+    .btn-secondary:hover {
+      background: #667eea;
+      color: white;
+      transform: translateY(-2px);
+    }
+    
+    .features {
+      margin-top: 40px;
+      text-align: left;
+    }
+    
+    .feature-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 15px;
+      background: #f8f9fa;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+    
+    .feature-item:hover {
+      background: #e9ecef;
+      transform: translateX(5px);
+    }
+    
+    .feature-icon {
+      font-size: 24px;
+      margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Welcome to My Site</h1>
+    <p>This is a demonstration of GitHub Pages with a custom 404 error page.</p>
+    
+    <div class="email">
+      📧 Contact: 23f3002003@ds.study.iitm.ac.in
+    </div>
+    
+    <div class="features">
+      <div class="feature-item">
+        <span class="feature-icon">✨</span>
+        <span>Custom 404 error page with creative design</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🎨</span>
+        <span>Modern and responsive interface</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🔗</span>
+        <span>Easy navigation and user-friendly experience</span>
+      </div>
+    </div>
+    
+    <div class="links">
+      <a href="/nonexistent-page" class="btn-primary">🔍 Test 404 Page</a>
+      <a href="https://github.com" class="btn-secondary">📦 View on GitHub</a>
+    </div>
+  </div>
+</body>
+</html>
